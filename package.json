@@ -1,12 +1,12 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "bin/index.ts",
   "repository": "git@github.com:ppessi/discord-bot.git",
   "author": "Pinja Jäkkö <pinja@jakko.fi>",
   "license": "MIT",
   "dependencies": {
-    "@sapphire/framework": "^2.5.1",
+    "@sapphire/framework": "^3.0.0-next.c6c1eee.0",
     "@types/node": "^18.0.3",
     "discord.js": "^13.8.1",
     "typescript": "^4.7.4"
