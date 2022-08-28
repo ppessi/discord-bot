@@ -5,6 +5,10 @@
   "repository": "git@github.com:ppessi/discord-bot.git",
   "author": "Pinja Jäkkö <pinja@jakko.fi>",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc --build && node bin/index.js",
+    "build": "tsc --build"
+  },
   "dependencies": {
     "@sapphire/framework": "^3.0.0-next.c6c1eee.0",
     "@types/node": "^18.0.3",
